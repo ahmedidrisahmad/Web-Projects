@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haramaya University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1
+,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="haramaya.css">
+</head>
+<body>
+      <section class="itemone">
+           <nav class="item01">
+              <a href="data.html"><img src="Photos/DFG.png" alt="" ></a>
+              <div>
+                <h1 style="color: #fff;">Haramaya University</h1>
+              </div>
+              <div class="item-links" id="itemLink1">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="Haramaya.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+             <div class="item02">
+          
+             </div>
+                <h1 style="margin-top: 200px;">Contact Us</h1>
+      </section>
+
+      <!-------------------Contact Us content-------------->
+
+      <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.7498061645088!2d42.034824585746826!3d9.42333012558565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+        1!3m3!1m2!1s0x1631a5a8e441e64d%3A0xdafe11071687f9d!2sHaramaya%20University!5e0!3m2!1sen!2set!4v1727552562226!5m2!1sen!2set"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+      <section class="contact-us">
+        <div class="item04">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i> 
+                    <span>
+                        <h5>Haramaya University, Adminstartion Building</h5>
+                        <p> Haramaya, Ethiopia</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i> 
+                    <span>
+                        <h5>+251 15552973</h5>
+                        <p>Monday to Friday, 10AM to 6PM</p>
+                    </span>
+                </div>
+
+                <div>
+                  <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@haramayaeduet@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                  <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="message" required></textarea>
+                    <button type="submit" class="item03 ahd">Send Message</button>
+                  </form>
+
+            </div>
+        </div>
+      </section>
+ 
+
+<!----------------------footer---------------------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>The main campus library at Haramaya University is a vital 
+    resource for the academic community, providing an <br> extensive range of 
+    facilities and services to support learning, teaching, and research. 
+  </p> 
+       <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+           </div>
+           <p>Made with <i class="fa-regular fa-heart"></i> Ahmad Idris</p>
+</section>
+
+
+
+
+
+
+
+
+
+ <!------------------------Java Script for Toggle Menu--------------------->
+    <script>
+        var itemLink1 = document.getElementById("item-link");
+        function showmenu(){
+          itemLink1.style.right = "0";
+        }
+        function hidemenu(){
+          itemLink1.style.right = "-200px";
+        } 
+    </script>
+    
+</body>
+</html>

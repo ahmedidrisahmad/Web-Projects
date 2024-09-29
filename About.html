@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haramaya University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1
+,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="haramaya.css">
+</head>
+<body>
+      <section class="itemone">
+           <nav class="item01">
+              <a href="data.html"><img src="Photos/DFG.png" alt="" ></a>
+              <div>
+                <h1 style="color: #fff;">Haramaya University</h1>
+              </div>
+              <div class="item-links" id="itemLink1">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                  <li><a href="Haramaya.html">HOME</a></li>
+                  <li><a href="About.html">ABOUT</a></li>
+                  <li><a href="Course.html">COURSE</a></li>
+                  <li><a href="Blog.html">BLOG</a></li>
+                  <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+             <div class="item02">
+          
+             </div>
+                <h1 style="margin-top: 200px;">About Us</h1>
+      </section>
+
+      <!--------------------About Us content-------------->
+    
+     <section class="about-us">
+      <div class="item04">
+          <div class="about-col">
+            <h1>Build the Basis for Development</h1> 
+            <hr>
+          <p style="font-size: 15px;">Haramaya University (HU) is one of the oldest higher learning institutions in Ethiopia which has gone through more than six decades of gigantic transformations since its establishment as an Imperial Ethiopian College of Agricultural and Mechanical of Arts (IECAMA) in the early 1950s. <br>
+             Its foundation was necessitated with the need for modernizing and advancing Ethiopia’s agriculture through the production of trained manpower and pragmatic research and extension programs. 
+             <br>
+          <br>
+             To this end, the governments of Ethiopia and the United States of America signed an Agreement under the Point Four Program on May 15, 1952. 
+
+               The Agreement between the Government of Ethiopia and the Technical Cooperation Administration of the Government of the United States of America was signed on May 16, 1952, which gave the mandate to Oklahoma State University (OSU) to establish and operate the College,
+                carry out a nationwide system of Agricultural Extension via agricultural research and experimental station.
+               Subsequently, with the recommendation of His Imperial Majesty, Emperor Haile Sellasie I, the envisioned IECAMA was established at its present location, Haramaya, near the historic Lake Haramaya. 
+               <br> 
+               <br>The area covers a total of 440 hectares of land.
+             The establishment involved the construction of physical plant and enormous facilities of the campus including students’ dormitories, the cafeteria, the classrooms, the clinic, farm shop and staff dwellings largely in 1950s.</p>
+               <a href="" class="item03 ahd">Explore Now</a>
+          </div>
+          <div class="about-col">
+            <img src="Photos/Jemal-Yousuf-.jpg" alt="">
+            <h5>Dr. Jemal Yousuf  <br>University President</h5>
+          </div>
+      </div>
+   </section>
+
+<!----------------------footer---------------------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>The main campus library at Haramaya University is a vital 
+    resource for the academic community, providing an <br> extensive range of 
+    facilities and services to support learning, teaching, and research. 
+  </p> 
+       <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+           </div>
+           <p>Made with <i class="fa-regular fa-heart"></i> Ahmad Idris</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+ <!------------------------Java Script for Toggle Menu--------------------->
+    <script>
+        var itemLink1 = document.getElementById("item-link");
+        function showmenu(){
+          itemLink1.style.right = "0";
+        }
+        function hidemenu(){
+          itemLink1.style.right = "-200px";
+        } 
+    </script>
+    
+</body>
+</html>
